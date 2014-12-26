@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>30</x>
+      <y>50</y>
+      <w>840</w>
+      <h>400</h>
+    </coordinates>
+    <panel_attributes>Server Application</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>460</x>
+      <y>100</y>
+      <w>380</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>Frontend</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>60</x>
+      <y>100</y>
+      <w>380</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>Backend</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>90</x>
+      <y>150</y>
+      <w>330</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>GPGPU Processing</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>90</x>
+      <y>270</y>
+      <w>330</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Data retrieval</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
