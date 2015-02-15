@@ -4,51 +4,242 @@
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>20</x>
-      <y>10</y>
+      <x>0</x>
+      <y>0</y>
       <w>280</w>
       <h>340</h>
     </coordinates>
-    <panel_attributes>Backend REST Interface</panel_attributes>
+    <panel_attributes> /backend/</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>30</x>
-      <y>50</y>
+      <x>10</x>
+      <y>40</y>
       <w>250</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>symbol=component
-Add Job
-_POST:applicationname/job_</panel_attributes>
+Get all available 
+service-types
+_GET:services_</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>30</x>
-      <y>150</y>
+      <x>10</x>
+      <y>140</y>
       <w>250</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>symbol=component
-Get all jobs
-_GET:applicationname/job_</panel_attributes>
+Get specific service 
+by identifier
+_GET:service/:id_</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>30</x>
-      <y>250</y>
+      <x>10</x>
+      <y>240</y>
       <w>250</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>symbol=component
-Get specific jobs
-_GET:applicationname/job/:id_</panel_attributes>
+Schedule specific service
+by identifier
+_POST:schedule/:id_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>290</x>
+      <y>0</y>
+      <w>280</w>
+      <h>340</h>
+    </coordinates>
+    <panel_attributes> /serviceProvider/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>300</x>
+      <y>40</y>
+      <w>250</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Get all available 
+provider-types
+_GET:_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>580</x>
+      <y>0</y>
+      <w>280</w>
+      <h>340</h>
+    </coordinates>
+    <panel_attributes> /service/
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>590</x>
+      <y>40</y>
+      <w>250</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Get all service instances
+ever scheduled
+_GET:_
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>590</x>
+      <y>140</y>
+      <w>250</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Get a specific service
+instance that is scheduled
+_GET:id/:id_
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>590</x>
+      <y>240</y>
+      <w>250</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Delete a speficic service
+from database
+_GET:id/:id_
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>10</x>
+      <y>400</y>
+      <w>250</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Get all job instances
+ever scheduled
+_GET:_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>10</x>
+      <y>500</y>
+      <w>250</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Get a specific job
+instance that is scheduled
+_GET:id/:id_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>10</x>
+      <y>600</y>
+      <w>250</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Delete a speficic job
+from database
+_GET:id/:id_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>0</x>
+      <y>360</y>
+      <w>280</w>
+      <h>340</h>
+    </coordinates>
+    <panel_attributes> /job/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>300</x>
+      <y>400</y>
+      <w>250</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Get all result instances
+ever scheduled
+_GET:_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>300</x>
+      <y>500</y>
+      <w>250</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Get a specific result
+instance that is scheduled
+_GET:id/:id_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>300</x>
+      <y>600</y>
+      <w>250</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Delete a speficic result
+from database
+_GET:id/:id_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>290</x>
+      <y>360</y>
+      <w>280</w>
+      <h>340</h>
+    </coordinates>
+    <panel_attributes> /result/</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
